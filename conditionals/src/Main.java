@@ -8,7 +8,8 @@ public class Main {
             System.out.println("Everything is fine.");
         }
 
-        int test = true == false ? 10 : 20; // Single Line If-Else statement.
+        int test = 50 == 10 ? 10 : 20; // Single Line If-Else statement.
+        System.out.println(test);
 
         String a = new String("This is an Object");
         String b = new String("This is an Object");
